@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A17B38E299600C200D24A9D /* Mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A17B38D299600C200D24A9D /* Mock.json */; };
+		4A17B38F299600C200D24A9D /* Mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A17B38D299600C200D24A9D /* Mock.json */; };
+		4A34892A29944B5A005FF5CC /* DivisionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A34892829944B5A005FF5CC /* DivisionListViewController.swift */; };
+		4A34892B29944B5A005FF5CC /* HolidayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A34892929944B5A005FF5CC /* HolidayListViewController.swift */; };
+		4A34892E29944B8F005FF5CC /* HolidayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB07402992E73C00DD966B /* HolidayTableViewCell.swift */; };
+		4A79FE122993BC9B00BEF767 /* DivisionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79FE112993BC9B00BEF767 /* DivisionViewModel.swift */; };
+		4A79FE142993C17800BEF767 /* DivisionCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79FE132993C17800BEF767 /* DivisionCellModel.swift */; };
+		4A79FE162993C79A00BEF767 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79FE152993C79A00BEF767 /* Constant.swift */; };
+		4A79FE1B299413D700BEF767 /* HolidayViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79FE1A299413D700BEF767 /* HolidayViewModelTests.swift */; };
+		4A79FE1C299413FB00BEF767 /* HolidayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB07332992D38500DD966B /* HolidayViewModel.swift */; };
+		4A79FE1D2994140000BEF767 /* DivisionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79FE112993BC9B00BEF767 /* DivisionViewModel.swift */; };
+		4A79FE1E29941EB000BEF767 /* DivisionCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79FE132993C17800BEF767 /* DivisionCellModel.swift */; };
+		4A79FE1F29941EBB00BEF767 /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB07312992949700DD966B /* Holiday.swift */; };
+		4A79FE2029941EBE00BEF767 /* HolidayCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB07392992DE1000DD966B /* HolidayCellModel.swift */; };
+		4A79FE2129941EE300BEF767 /* HolidayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB072F2992940F00DD966B /* HolidayService.swift */; };
+		4A79FE2229941EF100BEF767 /* HTTPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB072D299293C700DD966B /* HTTPHelper.swift */; };
+		4A79FE2329941F3100BEF767 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79FE152993C79A00BEF767 /* Constant.swift */; };
+		4A79FE2B2994223200BEF767 /* HolidayModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79FE292994223200BEF767 /* HolidayModelTests.swift */; };
+		4A79FE2D299424BC00BEF767 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79FE2C299424BC00BEF767 /* JSON.swift */; };
+		4A79FE3329942A0A00BEF767 /* HolidayServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79FE3129942A0A00BEF767 /* HolidayServiceTests.swift */; };
+		4A79FE372994362600BEF767 /* HolidayListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79FE352994362600BEF767 /* HolidayListViewControllerTests.swift */; };
+		4A79FE3A29943A9300BEF767 /* DivisionListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79FE3929943A9300BEF767 /* DivisionListViewControllerTests.swift */; };
+		4A8D4E252994A43000E08BC0 /* DivisionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D4E242994A43000E08BC0 /* DivisionViewModelTests.swift */; };
+		4A8D4E272994AF9D00E08BC0 /* HolidayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB07332992D38500DD966B /* HolidayViewModel.swift */; };
+		4A8D4E292994C6E100E08BC0 /* DivisionList+Tableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D4E282994C6E100E08BC0 /* DivisionList+Tableview.swift */; };
+		4A8D4E2B2994C74400E08BC0 /* HolidayList+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D4E2A2994C74400E08BC0 /* HolidayList+TableView.swift */; };
+		4ACB06F929925F3200DD966B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB06F829925F3200DD966B /* AppDelegate.swift */; };
+		4ACB06FB29925F3200DD966B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB06FA29925F3200DD966B /* SceneDelegate.swift */; };
+		4ACB070029925F3200DD966B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACB06FE29925F3200DD966B /* Main.storyboard */; };
+		4ACB070229925F3300DD966B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACB070129925F3300DD966B /* Assets.xcassets */; };
+		4ACB070529925F3300DD966B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACB070329925F3300DD966B /* LaunchScreen.storyboard */; };
+		4ACB071A29925F3300DD966B /* LloydsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB071929925F3300DD966B /* LloydsTestUITests.swift */; };
+		4ACB071C29925F3300DD966B /* LloydsTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB071B29925F3300DD966B /* LloydsTestUITestsLaunchTests.swift */; };
+		4ACB072E299293C700DD966B /* HTTPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB072D299293C700DD966B /* HTTPHelper.swift */; };
+		4ACB07302992940F00DD966B /* HolidayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB072F2992940F00DD966B /* HolidayService.swift */; };
+		4ACB07322992949700DD966B /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB07312992949700DD966B /* Holiday.swift */; };
+		4ACB073A2992DE1000DD966B /* HolidayCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB07392992DE1000DD966B /* HolidayCellModel.swift */; };
+		4ACB07422992E73C00DD966B /* HolidayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB07402992E73C00DD966B /* HolidayTableViewCell.swift */; };
+		4ACB07432992E73C00DD966B /* HolidayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACB07412992E73C00DD966B /* HolidayTableViewCell.xib */; };
+		899EE2A70CFDDBFF665B921C /* Pods_UKHolidayListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A7C8002EB2D422150FB7D2 /* Pods_UKHolidayListTests.framework */; };
+		AF973F093765F8450A4CA1D9 /* Pods_UKHolidayList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156CD60B850614FEB71A46F7 /* Pods_UKHolidayList.framework */; };
+		E17C3304376D0743C91632F1 /* Pods_UKHolidayList_UKHolidayListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A390E84478FA1EE8BE2786 /* Pods_UKHolidayList_UKHolidayListUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ACB070C29925F3300DD966B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACB06ED29925F3200DD966B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ACB06F429925F3200DD966B;
+			remoteInfo = LloydsTest;
+		};
+		4ACB071629925F3300DD966B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACB06ED29925F3200DD966B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ACB06F429925F3200DD966B;
+			remoteInfo = LloydsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018AA390C495BA6EEE0A5849 /* Pods-LloydsTest-LloydsTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LloydsTest-LloydsTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-LloydsTest-LloydsTestUITests/Pods-LloydsTest-LloydsTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		09D17D0A6DC0A7737E0C983E /* Pods-UKHolidayListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UKHolidayListTests.release.xcconfig"; path = "Target Support Files/Pods-UKHolidayListTests/Pods-UKHolidayListTests.release.xcconfig"; sourceTree = "<group>"; };
+		0B22C788B4BE5401DD806E24 /* Pods-LloydsTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LloydsTestTests.release.xcconfig"; path = "Target Support Files/Pods-LloydsTestTests/Pods-LloydsTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		156CD60B850614FEB71A46F7 /* Pods_UKHolidayList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UKHolidayList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E42D6ACB2477831FE6B73F /* Pods-UKHolidayListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UKHolidayListTests.debug.xcconfig"; path = "Target Support Files/Pods-UKHolidayListTests/Pods-UKHolidayListTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D20BAE82DCBB6AD775EB77D /* Pods-LloydsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LloydsTest.debug.xcconfig"; path = "Target Support Files/Pods-LloydsTest/Pods-LloydsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		3E06FA13CA9D8D89F5CA0CB8 /* Pods-UKHolidayList-UKHolidayListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UKHolidayList-UKHolidayListUITests.debug.xcconfig"; path = "Target Support Files/Pods-UKHolidayList-UKHolidayListUITests/Pods-UKHolidayList-UKHolidayListUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A17B38D299600C200D24A9D /* Mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Mock.json; sourceTree = "<group>"; };
+		4A34892829944B5A005FF5CC /* DivisionListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivisionListViewController.swift; sourceTree = "<group>"; };
+		4A34892929944B5A005FF5CC /* HolidayListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayListViewController.swift; sourceTree = "<group>"; };
+		4A79FE112993BC9B00BEF767 /* DivisionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionViewModel.swift; sourceTree = "<group>"; };
+		4A79FE132993C17800BEF767 /* DivisionCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionCellModel.swift; sourceTree = "<group>"; };
+		4A79FE152993C79A00BEF767 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		4A79FE1A299413D700BEF767 /* HolidayViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayViewModelTests.swift; sourceTree = "<group>"; };
+		4A79FE292994223200BEF767 /* HolidayModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayModelTests.swift; sourceTree = "<group>"; };
+		4A79FE2C299424BC00BEF767 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		4A79FE3129942A0A00BEF767 /* HolidayServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayServiceTests.swift; sourceTree = "<group>"; };
+		4A79FE352994362600BEF767 /* HolidayListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayListViewControllerTests.swift; sourceTree = "<group>"; };
+		4A79FE3929943A9300BEF767 /* DivisionListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionListViewControllerTests.swift; sourceTree = "<group>"; };
+		4A8D4E242994A43000E08BC0 /* DivisionViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionViewModelTests.swift; sourceTree = "<group>"; };
+		4A8D4E282994C6E100E08BC0 /* DivisionList+Tableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DivisionList+Tableview.swift"; sourceTree = "<group>"; };
+		4A8D4E2A2994C74400E08BC0 /* HolidayList+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HolidayList+TableView.swift"; sourceTree = "<group>"; };
+		4ACB06F529925F3200DD966B /* UKHolidayList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UKHolidayList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACB06F829925F3200DD966B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ACB06FA29925F3200DD966B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4ACB06FF29925F3200DD966B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ACB070129925F3300DD966B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ACB070429925F3300DD966B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ACB070629925F3300DD966B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ACB070B29925F3300DD966B /* UKHolidayListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UKHolidayListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACB071529925F3300DD966B /* UKHolidayListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UKHolidayListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACB071929925F3300DD966B /* LloydsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LloydsTestUITests.swift; sourceTree = "<group>"; };
+		4ACB071B29925F3300DD966B /* LloydsTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LloydsTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4ACB072D299293C700DD966B /* HTTPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHelper.swift; sourceTree = "<group>"; };
+		4ACB072F2992940F00DD966B /* HolidayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayService.swift; sourceTree = "<group>"; };
+		4ACB07312992949700DD966B /* Holiday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday.swift; sourceTree = "<group>"; };
+		4ACB07332992D38500DD966B /* HolidayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayViewModel.swift; sourceTree = "<group>"; };
+		4ACB07392992DE1000DD966B /* HolidayCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayCellModel.swift; sourceTree = "<group>"; };
+		4ACB07402992E73C00DD966B /* HolidayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayTableViewCell.swift; sourceTree = "<group>"; };
+		4ACB07412992E73C00DD966B /* HolidayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HolidayTableViewCell.xib; sourceTree = "<group>"; };
+		4D48CD83E839974D688B5888 /* Pods-LloydsTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LloydsTestTests.debug.xcconfig"; path = "Target Support Files/Pods-LloydsTestTests/Pods-LloydsTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57A390E84478FA1EE8BE2786 /* Pods_UKHolidayList_UKHolidayListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UKHolidayList_UKHolidayListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78CC697D04D754CCBBB91C2E /* Pods-UKHolidayList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UKHolidayList.debug.xcconfig"; path = "Target Support Files/Pods-UKHolidayList/Pods-UKHolidayList.debug.xcconfig"; sourceTree = "<group>"; };
+		9E5BB39403308927D3AAC984 /* Pods-LloydsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LloydsTest.release.xcconfig"; path = "Target Support Files/Pods-LloydsTest/Pods-LloydsTest.release.xcconfig"; sourceTree = "<group>"; };
+		AD16A5765653B99CE416415D /* Pods-UKHolidayList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UKHolidayList.release.xcconfig"; path = "Target Support Files/Pods-UKHolidayList/Pods-UKHolidayList.release.xcconfig"; sourceTree = "<group>"; };
+		B6A7C8002EB2D422150FB7D2 /* Pods_UKHolidayListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UKHolidayListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAD09213322436837EE2BE1 /* Pods-UKHolidayList-UKHolidayListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UKHolidayList-UKHolidayListUITests.release.xcconfig"; path = "Target Support Files/Pods-UKHolidayList-UKHolidayListUITests/Pods-UKHolidayList-UKHolidayListUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C3EE5898EA8A6871977AFD12 /* Pods-LloydsTest-LloydsTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LloydsTest-LloydsTestUITests.release.xcconfig"; path = "Target Support Files/Pods-LloydsTest-LloydsTestUITests/Pods-LloydsTest-LloydsTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ACB06F229925F3200DD966B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF973F093765F8450A4CA1D9 /* Pods_UKHolidayList.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACB070829925F3300DD966B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899EE2A70CFDDBFF665B921C /* Pods_UKHolidayListTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACB071229925F3300DD966B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17C3304376D0743C91632F1 /* Pods_UKHolidayList_UKHolidayListUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A17B38C2996008E00D24A9D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A17B38D299600C200D24A9D /* Mock.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4A34892729944B42005FF5CC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A34892829944B5A005FF5CC /* DivisionListViewController.swift */,
+				4A34892929944B5A005FF5CC /* HolidayListViewController.swift */,
+				4A8D4E282994C6E100E08BC0 /* DivisionList+Tableview.swift */,
+				4A8D4E2A2994C74400E08BC0 /* HolidayList+TableView.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4A79FE172994133500BEF767 /* ViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A79FE1A299413D700BEF767 /* HolidayViewModelTests.swift */,
+				4A8D4E242994A43000E08BC0 /* DivisionViewModelTests.swift */,
+			);
+			path = ViewModelTests;
+			sourceTree = "<group>";
+		};
+		4A79FE242994216500BEF767 /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A79FE292994223200BEF767 /* HolidayModelTests.swift */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		4A79FE2E299429A700BEF767 /* ServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A79FE3129942A0A00BEF767 /* HolidayServiceTests.swift */,
+			);
+			path = ServiceTests;
+			sourceTree = "<group>";
+		};
+		4A79FE34299435F400BEF767 /* ViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A79FE352994362600BEF767 /* HolidayListViewControllerTests.swift */,
+				4A79FE3929943A9300BEF767 /* DivisionListViewControllerTests.swift */,
+			);
+			path = ViewControllerTests;
+			sourceTree = "<group>";
+		};
+		4ACB06EC29925F3200DD966B = {
+			isa = PBXGroup;
+			children = (
+				4ACB06F729925F3200DD966B /* UKHolidayList */,
+				4ACB070E29925F3300DD966B /* UKHolidayListTestTests */,
+				4ACB071829925F3300DD966B /* UKHolidayUITests */,
+				4ACB06F629925F3200DD966B /* Products */,
+				CDDE4795375C87E2B05F209D /* Pods */,
+				DDCC111FA3655C93D828AEC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4ACB06F629925F3200DD966B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ACB06F529925F3200DD966B /* UKHolidayList.app */,
+				4ACB070B29925F3300DD966B /* UKHolidayListTests.xctest */,
+				4ACB071529925F3300DD966B /* UKHolidayListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ACB06F729925F3200DD966B /* UKHolidayList */ = {
+			isa = PBXGroup;
+			children = (
+				4A17B38C2996008E00D24A9D /* Resources */,
+				4ACB072C2992905A00DD966B /* View */,
+				4ACB072B2992904C00DD966B /* ViewModel */,
+				4ACB072A2992904200DD966B /* Model */,
+				4ACB07292992902100DD966B /* Services */,
+				4ACB07282992901800DD966B /* Common */,
+				4ACB06F829925F3200DD966B /* AppDelegate.swift */,
+				4ACB06FA29925F3200DD966B /* SceneDelegate.swift */,
+				4ACB06FE29925F3200DD966B /* Main.storyboard */,
+				4ACB070129925F3300DD966B /* Assets.xcassets */,
+				4ACB070329925F3300DD966B /* LaunchScreen.storyboard */,
+				4ACB070629925F3300DD966B /* Info.plist */,
+			);
+			path = UKHolidayList;
+			sourceTree = "<group>";
+		};
+		4ACB070E29925F3300DD966B /* UKHolidayListTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A79FE34299435F400BEF767 /* ViewControllerTests */,
+				4A79FE2E299429A700BEF767 /* ServiceTests */,
+				4A79FE242994216500BEF767 /* ModelTests */,
+				4A79FE172994133500BEF767 /* ViewModelTests */,
+			);
+			path = UKHolidayListTestTests;
+			sourceTree = "<group>";
+		};
+		4ACB071829925F3300DD966B /* UKHolidayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4ACB071929925F3300DD966B /* LloydsTestUITests.swift */,
+				4ACB071B29925F3300DD966B /* LloydsTestUITestsLaunchTests.swift */,
+			);
+			path = UKHolidayUITests;
+			sourceTree = "<group>";
+		};
+		4ACB07282992901800DD966B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4A79FE152993C79A00BEF767 /* Constant.swift */,
+				4A79FE2C299424BC00BEF767 /* JSON.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4ACB07292992902100DD966B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4ACB072D299293C700DD966B /* HTTPHelper.swift */,
+				4ACB072F2992940F00DD966B /* HolidayService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4ACB072A2992904200DD966B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4ACB07312992949700DD966B /* Holiday.swift */,
+				4ACB07392992DE1000DD966B /* HolidayCellModel.swift */,
+				4A79FE132993C17800BEF767 /* DivisionCellModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4ACB072B2992904C00DD966B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4ACB07332992D38500DD966B /* HolidayViewModel.swift */,
+				4A79FE112993BC9B00BEF767 /* DivisionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4ACB072C2992905A00DD966B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A34892729944B42005FF5CC /* ViewControllers */,
+				4ACB073B2992E6EC00DD966B /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4ACB073B2992E6EC00DD966B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4ACB07402992E73C00DD966B /* HolidayTableViewCell.swift */,
+				4ACB07412992E73C00DD966B /* HolidayTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CDDE4795375C87E2B05F209D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D20BAE82DCBB6AD775EB77D /* Pods-LloydsTest.debug.xcconfig */,
+				9E5BB39403308927D3AAC984 /* Pods-LloydsTest.release.xcconfig */,
+				018AA390C495BA6EEE0A5849 /* Pods-LloydsTest-LloydsTestUITests.debug.xcconfig */,
+				C3EE5898EA8A6871977AFD12 /* Pods-LloydsTest-LloydsTestUITests.release.xcconfig */,
+				4D48CD83E839974D688B5888 /* Pods-LloydsTestTests.debug.xcconfig */,
+				0B22C788B4BE5401DD806E24 /* Pods-LloydsTestTests.release.xcconfig */,
+				78CC697D04D754CCBBB91C2E /* Pods-UKHolidayList.debug.xcconfig */,
+				AD16A5765653B99CE416415D /* Pods-UKHolidayList.release.xcconfig */,
+				3E06FA13CA9D8D89F5CA0CB8 /* Pods-UKHolidayList-UKHolidayListUITests.debug.xcconfig */,
+				BAAD09213322436837EE2BE1 /* Pods-UKHolidayList-UKHolidayListUITests.release.xcconfig */,
+				29E42D6ACB2477831FE6B73F /* Pods-UKHolidayListTests.debug.xcconfig */,
+				09D17D0A6DC0A7737E0C983E /* Pods-UKHolidayListTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DDCC111FA3655C93D828AEC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				156CD60B850614FEB71A46F7 /* Pods_UKHolidayList.framework */,
+				57A390E84478FA1EE8BE2786 /* Pods_UKHolidayList_UKHolidayListUITests.framework */,
+				B6A7C8002EB2D422150FB7D2 /* Pods_UKHolidayListTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ACB06F429925F3200DD966B /* UKHolidayList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ACB071F29925F3300DD966B /* Build configuration list for PBXNativeTarget "UKHolidayList" */;
+			buildPhases = (
+				1C06976DBA668E8A2FC25CC9 /* [CP] Check Pods Manifest.lock */,
+				4ACB06F129925F3200DD966B /* Sources */,
+				4ACB06F229925F3200DD966B /* Frameworks */,
+				4ACB06F329925F3200DD966B /* Resources */,
+				4A83729A2995839C00E70116 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UKHolidayList;
+			productName = LloydsTest;
+			productReference = 4ACB06F529925F3200DD966B /* UKHolidayList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ACB070A29925F3300DD966B /* UKHolidayListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ACB072229925F3300DD966B /* Build configuration list for PBXNativeTarget "UKHolidayListTests" */;
+			buildPhases = (
+				58A55861850FFDCA99619161 /* [CP] Check Pods Manifest.lock */,
+				4ACB070729925F3300DD966B /* Sources */,
+				4ACB070829925F3300DD966B /* Frameworks */,
+				4ACB070929925F3300DD966B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ACB070D29925F3300DD966B /* PBXTargetDependency */,
+			);
+			name = UKHolidayListTests;
+			productName = LloydsTestTests;
+			productReference = 4ACB070B29925F3300DD966B /* UKHolidayListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ACB071429925F3300DD966B /* UKHolidayListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ACB072529925F3300DD966B /* Build configuration list for PBXNativeTarget "UKHolidayListUITests" */;
+			buildPhases = (
+				709E76996BB93628B593B034 /* [CP] Check Pods Manifest.lock */,
+				4ACB071129925F3300DD966B /* Sources */,
+				4ACB071229925F3300DD966B /* Frameworks */,
+				4ACB071329925F3300DD966B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ACB071729925F3300DD966B /* PBXTargetDependency */,
+			);
+			name = UKHolidayListUITests;
+			productName = LloydsTestUITests;
+			productReference = 4ACB071529925F3300DD966B /* UKHolidayListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ACB06ED29925F3200DD966B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4ACB06F429925F3200DD966B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4ACB070A29925F3300DD966B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4ACB06F429925F3200DD966B;
+					};
+					4ACB071429925F3300DD966B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4ACB06F429925F3200DD966B;
+					};
+				};
+			};
+			buildConfigurationList = 4ACB06F029925F3200DD966B /* Build configuration list for PBXProject "UKHolidayList" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ACB06EC29925F3200DD966B;
+			productRefGroup = 4ACB06F629925F3200DD966B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ACB06F429925F3200DD966B /* UKHolidayList */,
+				4ACB070A29925F3300DD966B /* UKHolidayListTests */,
+				4ACB071429925F3300DD966B /* UKHolidayListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ACB06F329925F3200DD966B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACB070529925F3300DD966B /* LaunchScreen.storyboard in Resources */,
+				4A17B38E299600C200D24A9D /* Mock.json in Resources */,
+				4ACB070229925F3300DD966B /* Assets.xcassets in Resources */,
+				4ACB07432992E73C00DD966B /* HolidayTableViewCell.xib in Resources */,
+				4ACB070029925F3200DD966B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACB070929925F3300DD966B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A17B38F299600C200D24A9D /* Mock.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACB071329925F3300DD966B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C06976DBA668E8A2FC25CC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UKHolidayList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A83729A2995839C00E70116 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint \n";
+		};
+		58A55861850FFDCA99619161 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UKHolidayListTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		709E76996BB93628B593B034 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UKHolidayList-UKHolidayListUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ACB06F129925F3200DD966B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A79FE142993C17800BEF767 /* DivisionCellModel.swift in Sources */,
+				4A79FE2D299424BC00BEF767 /* JSON.swift in Sources */,
+				4ACB07422992E73C00DD966B /* HolidayTableViewCell.swift in Sources */,
+				4ACB072E299293C700DD966B /* HTTPHelper.swift in Sources */,
+				4ACB07322992949700DD966B /* Holiday.swift in Sources */,
+				4ACB06F929925F3200DD966B /* AppDelegate.swift in Sources */,
+				4A34892B29944B5A005FF5CC /* HolidayListViewController.swift in Sources */,
+				4A8D4E292994C6E100E08BC0 /* DivisionList+Tableview.swift in Sources */,
+				4ACB073A2992DE1000DD966B /* HolidayCellModel.swift in Sources */,
+				4ACB07302992940F00DD966B /* HolidayService.swift in Sources */,
+				4A8D4E2B2994C74400E08BC0 /* HolidayList+TableView.swift in Sources */,
+				4A79FE162993C79A00BEF767 /* Constant.swift in Sources */,
+				4A79FE122993BC9B00BEF767 /* DivisionViewModel.swift in Sources */,
+				4A8D4E272994AF9D00E08BC0 /* HolidayViewModel.swift in Sources */,
+				4ACB06FB29925F3200DD966B /* SceneDelegate.swift in Sources */,
+				4A34892A29944B5A005FF5CC /* DivisionListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACB070729925F3300DD966B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A79FE3329942A0A00BEF767 /* HolidayServiceTests.swift in Sources */,
+				4A79FE1F29941EBB00BEF767 /* Holiday.swift in Sources */,
+				4A34892E29944B8F005FF5CC /* HolidayTableViewCell.swift in Sources */,
+				4A79FE1C299413FB00BEF767 /* HolidayViewModel.swift in Sources */,
+				4A79FE2129941EE300BEF767 /* HolidayService.swift in Sources */,
+				4A8D4E252994A43000E08BC0 /* DivisionViewModelTests.swift in Sources */,
+				4A79FE2229941EF100BEF767 /* HTTPHelper.swift in Sources */,
+				4A79FE1B299413D700BEF767 /* HolidayViewModelTests.swift in Sources */,
+				4A79FE2B2994223200BEF767 /* HolidayModelTests.swift in Sources */,
+				4A79FE372994362600BEF767 /* HolidayListViewControllerTests.swift in Sources */,
+				4A79FE1E29941EB000BEF767 /* DivisionCellModel.swift in Sources */,
+				4A79FE2329941F3100BEF767 /* Constant.swift in Sources */,
+				4A79FE1D2994140000BEF767 /* DivisionViewModel.swift in Sources */,
+				4A79FE2029941EBE00BEF767 /* HolidayCellModel.swift in Sources */,
+				4A79FE3A29943A9300BEF767 /* DivisionListViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACB071129925F3300DD966B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACB071A29925F3300DD966B /* LloydsTestUITests.swift in Sources */,
+				4ACB071C29925F3300DD966B /* LloydsTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ACB070D29925F3300DD966B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ACB06F429925F3200DD966B /* UKHolidayList */;
+			targetProxy = 4ACB070C29925F3300DD966B /* PBXContainerItemProxy */;
+		};
+		4ACB071729925F3300DD966B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ACB06F429925F3200DD966B /* UKHolidayList */;
+			targetProxy = 4ACB071629925F3300DD966B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ACB06FE29925F3200DD966B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ACB06FF29925F3200DD966B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ACB070329925F3300DD966B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ACB070429925F3300DD966B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ACB071D29925F3300DD966B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ACB071E29925F3300DD966B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ACB072029925F3300DD966B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78CC697D04D754CCBBB91C2E /* Pods-UKHolidayList.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3WW59UDTV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UKHolidayList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.lloydsTest.LloydsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ACB072129925F3300DD966B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD16A5765653B99CE416415D /* Pods-UKHolidayList.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3WW59UDTV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UKHolidayList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.lloydsTest.LloydsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4ACB072329925F3300DD966B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E42D6ACB2477831FE6B73F /* Pods-UKHolidayListTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3WW59UDTV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.lloydsTest.LloydsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UKHolidayList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UKHolidayList";
+			};
+			name = Debug;
+		};
+		4ACB072429925F3300DD966B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D17D0A6DC0A7737E0C983E /* Pods-UKHolidayListTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3WW59UDTV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.lloydsTest.LloydsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UKHolidayList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UKHolidayList";
+			};
+			name = Release;
+		};
+		4ACB072629925F3300DD966B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E06FA13CA9D8D89F5CA0CB8 /* Pods-UKHolidayList-UKHolidayListUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3WW59UDTV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.lloydsTest.LloydsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LloydsTest;
+			};
+			name = Debug;
+		};
+		4ACB072729925F3300DD966B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAAD09213322436837EE2BE1 /* Pods-UKHolidayList-UKHolidayListUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3WW59UDTV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.lloydsTest.LloydsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LloydsTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ACB06F029925F3200DD966B /* Build configuration list for PBXProject "UKHolidayList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACB071D29925F3300DD966B /* Debug */,
+				4ACB071E29925F3300DD966B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ACB071F29925F3300DD966B /* Build configuration list for PBXNativeTarget "UKHolidayList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACB072029925F3300DD966B /* Debug */,
+				4ACB072129925F3300DD966B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ACB072229925F3300DD966B /* Build configuration list for PBXNativeTarget "UKHolidayListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACB072329925F3300DD966B /* Debug */,
+				4ACB072429925F3300DD966B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ACB072529925F3300DD966B /* Build configuration list for PBXNativeTarget "UKHolidayListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACB072629925F3300DD966B /* Debug */,
+				4ACB072729925F3300DD966B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ACB06ED29925F3200DD966B /* Project object */;
+}
