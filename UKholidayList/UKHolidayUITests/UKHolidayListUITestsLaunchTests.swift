@@ -1,6 +1,4 @@
 //
-//  LloydsTestUITestsLaunchTests.swift
-//  LloydsTestUITests
 //
 //  Created by Gaurav pande on 07/02/23.
 //

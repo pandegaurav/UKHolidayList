@@ -1,6 +1,5 @@
 //
 //  HolidayCellModel.swift
-//  LloydsTest
 //
 //  Created by Gaurav pande on 08/02/23.
 //

@@ -1,0 +1,6 @@
+framework module Pods_UKHolidayList_UKHolidayListUITests {
+  umbrella header "Pods-UKHolidayList-UKHolidayListUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
