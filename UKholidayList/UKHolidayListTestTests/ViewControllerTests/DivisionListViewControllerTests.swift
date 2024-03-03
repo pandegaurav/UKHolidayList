@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import LloydsTest
+@testable import UKHolidayList
 
 final class DivisionListViewControllerTests: XCTestCase {
     var viewControllerUnderTest: DivisionListViewController!

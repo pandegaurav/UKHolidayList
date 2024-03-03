@@ -33,13 +33,14 @@
 		4A8D4E272994AF9D00E08BC0 /* HolidayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB07332992D38500DD966B /* HolidayViewModel.swift */; };
 		4A8D4E292994C6E100E08BC0 /* DivisionList+Tableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D4E282994C6E100E08BC0 /* DivisionList+Tableview.swift */; };
 		4A8D4E2B2994C74400E08BC0 /* HolidayList+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D4E2A2994C74400E08BC0 /* HolidayList+TableView.swift */; };
+		4AC711002B94B2EF00B9C220 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79FE2C299424BC00BEF767 /* JSON.swift */; };
 		4ACB06F929925F3200DD966B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB06F829925F3200DD966B /* AppDelegate.swift */; };
 		4ACB06FB29925F3200DD966B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB06FA29925F3200DD966B /* SceneDelegate.swift */; };
 		4ACB070029925F3200DD966B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACB06FE29925F3200DD966B /* Main.storyboard */; };
 		4ACB070229925F3300DD966B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACB070129925F3300DD966B /* Assets.xcassets */; };
 		4ACB070529925F3300DD966B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACB070329925F3300DD966B /* LaunchScreen.storyboard */; };
-		4ACB071A29925F3300DD966B /* LloydsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB071929925F3300DD966B /* LloydsTestUITests.swift */; };
-		4ACB071C29925F3300DD966B /* LloydsTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB071B29925F3300DD966B /* LloydsTestUITestsLaunchTests.swift */; };
+		4ACB071A29925F3300DD966B /* UKHolidayListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB071929925F3300DD966B /* UKHolidayListUITests.swift */; };
+		4ACB071C29925F3300DD966B /* UKHolidayListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB071B29925F3300DD966B /* UKHolidayListUITestsLaunchTests.swift */; };
 		4ACB072E299293C700DD966B /* HTTPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB072D299293C700DD966B /* HTTPHelper.swift */; };
 		4ACB07302992940F00DD966B /* HolidayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB072F2992940F00DD966B /* HolidayService.swift */; };
 		4ACB07322992949700DD966B /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB07312992949700DD966B /* Holiday.swift */; };
@@ -100,8 +101,8 @@
 		4ACB070629925F3300DD966B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ACB070B29925F3300DD966B /* UKHolidayListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UKHolidayListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACB071529925F3300DD966B /* UKHolidayListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UKHolidayListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4ACB071929925F3300DD966B /* LloydsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LloydsTestUITests.swift; sourceTree = "<group>"; };
-		4ACB071B29925F3300DD966B /* LloydsTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LloydsTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4ACB071929925F3300DD966B /* UKHolidayListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UKHolidayListUITests.swift; sourceTree = "<group>"; };
+		4ACB071B29925F3300DD966B /* UKHolidayListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UKHolidayListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4ACB072D299293C700DD966B /* HTTPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHelper.swift; sourceTree = "<group>"; };
 		4ACB072F2992940F00DD966B /* HolidayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayService.swift; sourceTree = "<group>"; };
 		4ACB07312992949700DD966B /* Holiday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday.swift; sourceTree = "<group>"; };
@@ -255,8 +256,8 @@
 		4ACB071829925F3300DD966B /* UKHolidayUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4ACB071929925F3300DD966B /* LloydsTestUITests.swift */,
-				4ACB071B29925F3300DD966B /* LloydsTestUITestsLaunchTests.swift */,
+				4ACB071929925F3300DD966B /* UKHolidayListUITests.swift */,
+				4ACB071B29925F3300DD966B /* UKHolidayListUITestsLaunchTests.swift */,
 			);
 			path = UKHolidayUITests;
 			sourceTree = "<group>";
@@ -607,6 +608,7 @@
 				4A79FE1D2994140000BEF767 /* DivisionViewModel.swift in Sources */,
 				4A79FE2029941EBE00BEF767 /* HolidayCellModel.swift in Sources */,
 				4A79FE3A29943A9300BEF767 /* DivisionListViewControllerTests.swift in Sources */,
+				4AC711002B94B2EF00B9C220 /* JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,8 +616,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ACB071A29925F3300DD966B /* LloydsTestUITests.swift in Sources */,
-				4ACB071C29925F3300DD966B /* LloydsTestUITestsLaunchTests.swift in Sources */,
+				4ACB071A29925F3300DD966B /* UKHolidayListUITests.swift in Sources */,
+				4ACB071C29925F3300DD966B /* UKHolidayListUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

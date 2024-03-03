@@ -7,7 +7,7 @@
 
 import XCTest
 
-@testable import LloydsTest
+@testable import UKHolidayList
 
 final class HolidayViewModelTests: XCTestCase {
     var viewModel: HolidayViewModel!
